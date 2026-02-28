@@ -1,5 +1,5 @@
 // if ... else if ... else statement
-// It si used to evaluate multiple conditions
+// It is used to evaluate multiple conditions
 
 let age = 14
 
