@@ -59,3 +59,10 @@ else{
     contribution = 2000;
 }
 console.log("Monthly contribution is Ksh " + contribution);
+
+// for loop for leap years from 2000 to 2026
+for(let year = 2000; year <= 2026; year++){
+    if ((year % 4 === 0 && year % 100 !== 0)|| year % 400 === 0){
+        console.log(year);
+    }
+}
